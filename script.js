@@ -157,5 +157,11 @@ window.addEventListener("load", function  (event) {
         input.value = ""
         resultsDiv.innerHTML = ""
     })
+
+    const formButton = document.getElementById("submit");
+    formButton.addEventListener("click", (e) => {
+        e.preventDefault()
+        window.alert("Thank you for your message!")
+    })
 });
 
